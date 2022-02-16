@@ -59,8 +59,8 @@ class Workdays:
         return work_days
 
 start:str = '01.02.2022' # Start date for the first sprint
-sprints:int = 10 # Number of sprints
-sprintPeriod:int = 15 # Sprint length in days
+sprints:int = 10 # Number of sprints, number > 0
+sprintPeriod:int = 15 # Sprint length in days, days > 0
 begin_sprints:list = []
 end_sprints:list = []
 oSprintDates = SprintDates(start, sprints, sprintPeriod)
