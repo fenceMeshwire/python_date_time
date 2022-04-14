@@ -4,7 +4,7 @@
 
 # 03_conv_cal_week_date.py
 
-# Purpose: Convert the date dd.mm.yyyy into yymm + calendar week
+# Purpose: Convert the date dd.mm.yyyy into yyyymmww
 
 # Dependency
 from datetime import datetime
